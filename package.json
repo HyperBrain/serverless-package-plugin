@@ -27,11 +27,8 @@
   "main": "index.js",
   "bin": {},
   "scripts": {
-    "test": "mocha tests/all"
   },
   "devDependencies": {
-    "chai": "^3.4.1",
-    "mocha": "^2.3.4"
   },
   "dependencies": {
     "bluebird": "^3.1.1",
