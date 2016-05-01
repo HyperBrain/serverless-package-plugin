@@ -17,8 +17,8 @@ module.exports = function(S) {
    * Action instantiation. Used to resemble the SLS core layout to
    * make it easy to integrate into core later.
    */
-  let Package = require('./lib/actions/Package')(S);
-  Package = new Package();
+  let PackageCreate = require('./lib/actions/PackageCreate')(S);
+  PackageCreate = new PackageCreate();
 
   /**
    * ServerlessModel
@@ -49,7 +49,7 @@ module.exports = function(S) {
     registerActions() {
 
       return BbPromise.join(
-          Package.registerActions()
+          PackageCreate.registerActions()
           );
 
     }
