@@ -42,5 +42,11 @@ The options are the same as with `function deploy` with the exception of the -t 
 
 ## Releases
 
+### 1.0.2
+* Bug #3: Function names cannot be specified
+
+### 1.0.1
+* Trigger installed plugins on packaging
+
 ### 1.0.0
 * Initial release
